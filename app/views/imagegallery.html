@@ -3,12 +3,18 @@
         <div class="col-xs-6">
             <div class="directiveGallery boxShadow">
                 <input type="button" ng-click="openCarousel(0)" value="Open" />
+                <div class="informationToOpen">
+                    {{dataGallery[0].model}}
+                </div>
                 <tag-carousel info="dataGallery[0]"></tag-carousel>
             </div>
         </div>
         <div class="col-xs-6">
             <div class="directiveGallery boxShadow">
                 <input type="button" ng-click="openCarousel(1)" value="Open" />
+                <div class="informationToOpen">
+                    {{dataGallery[1].model}}
+                </div>                
                 <tag-carousel info="dataGallery[1]"></tag-carousel>
             </div>
         </div>
@@ -17,12 +23,18 @@
         <div class="col-xs-6">
             <div class="directiveGallery boxShadow">
                 <input type="button" ng-click="openCarousel(2)" value="Open" />
+                <div class="informationToOpen">
+                    {{dataGallery[2].model}}
+                </div>                
                 <tag-carousel info="dataGallery[2]"></tag-carousel>
             </div>
         </div>
         <div class="col-xs-6">
             <div class="directiveGallery boxShadow">
                 <input type="button" ng-click="openCarousel(3)" value="Open" />
+                <div class="informationToOpen">
+                    {{dataGallery[3].model}}
+                </div>                
                 <tag-carousel info="dataGallery[3]"></tag-carousel>
             </div>
         </div>
