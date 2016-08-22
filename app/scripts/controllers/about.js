@@ -7,12 +7,11 @@
  * # AboutCtrl
  * Controller of the siteApp
  */
-angular.module('siteApp').controller('AboutCtrl', function($scope) {
+angular.module('siteApp')
+  .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-    $scope.myClass = 'isActive';
-    $scope.activeAbout = 'isActive';
-  }); // End controller
+  });

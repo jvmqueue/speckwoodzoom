@@ -7,11 +7,11 @@
  * # MainCtrl
  * Controller of the siteApp
  */
-angular.module('siteApp').controller('MainCtrl', function ($scope) {
+angular.module('siteApp')
+  .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-    $scope.activeButton = 'isActive';
-  }); // End controller
+  });

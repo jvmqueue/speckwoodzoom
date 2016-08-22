@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on 2016-08-18
+// Generated on 2016-08-21
 
 module.exports = function(config) {
   'use strict';
@@ -22,7 +22,7 @@ module.exports = function(config) {
       // bower:js
       'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
-      'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
+      'bower_components/bootstrap/dist/js/bootstrap.js',
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-touch/angular-touch.js',
       'bower_components/angular-mocks/angular-mocks.js',

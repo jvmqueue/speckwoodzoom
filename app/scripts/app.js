@@ -25,11 +25,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
-      .when('/contact', {
-        templateUrl: 'views/contact.html',
-        controller: 'ContactCtrl',
-        controllerAs: 'contact'
-      })      
+      .when('/imageGallery', {
+        templateUrl: 'views/imagegallery.html',
+        controller: 'ImagegalleryCtrl',
+        controllerAs: 'imageGallery'
+      })
       .otherwise({
         redirectTo: '/'
       });

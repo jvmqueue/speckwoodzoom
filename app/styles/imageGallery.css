@@ -1,0 +1,35 @@
+.boxShadow{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.directiveGallery{
+    margin:1%;
+    border-radius:10px;
+    height:200px;
+}
+.containerDirectiveGallery .directiveGallery{
+    
+}
+.positionRelative{
+    position:relative;
+}
+.closeIconX{
+    float:right;
+    clear:both;
+    background:no-repeat url("../images/btnCloseGrayBlack.png");
+    display:inline-block;
+    width:24px;
+    height:24px;
+    cursor:pointer;
+}
+.closeIconX:hover{
+    opacity:0.5;
+}
+.modal{
+    display:block;
+    position:absolute;
+    z-index:3333;
+    height: 100px;
+    background-color: red;
+}
