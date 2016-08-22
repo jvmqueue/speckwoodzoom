@@ -1,12 +1,14 @@
 <section id="containerCarouselLinks" class="container containerDirectiveGallery">
     <div class="row">
         <div class="col-xs-6">
-            <div class="directiveGallery boxShadow" ng-click="openCarousel()">
+            <div class="directiveGallery boxShadow">
+                <input type="button" ng-click="openCarousel(0)" value="Open" />
                 <tag-carousel info="dataGallery[0]"></tag-carousel>
             </div>
         </div>
         <div class="col-xs-6">
             <div class="directiveGallery boxShadow">
+                <input type="button" ng-click="openCarousel(1)" value="Open" />
                 <tag-carousel info="dataGallery[1]"></tag-carousel>
             </div>
         </div>
@@ -14,11 +16,13 @@
     <div class="row">
         <div class="col-xs-6">
             <div class="directiveGallery boxShadow">
+                <input type="button" ng-click="openCarousel(2)" value="Open" />
                 <tag-carousel info="dataGallery[2]"></tag-carousel>
             </div>
         </div>
         <div class="col-xs-6">
             <div class="directiveGallery boxShadow">
+                <input type="button" ng-click="openCarousel(3)" value="Open" />
                 <tag-carousel info="dataGallery[3]"></tag-carousel>
             </div>
         </div>

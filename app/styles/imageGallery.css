@@ -1,7 +1,10 @@
 .boxShadow{
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    -webkit-transition:opacity .13s linear;
+    transition:opacity .13s linear;
+    color:#8E8E8E;
+    font-size:12px;
 }
 .directiveGallery{
     margin:1%;
@@ -27,9 +30,8 @@
     opacity:0.5;
 }
 .modal{
-    display:block;
-    position:absolute;
-    z-index:3333;
-    height: 100px;
-    background-color: red;
+    
+}
+.modal.animate-show{
+    display: block;
 }
