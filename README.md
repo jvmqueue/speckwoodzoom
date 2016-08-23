@@ -2,7 +2,7 @@
 <p>Angular Application</p>
 <p><a href="http://jvmqueue.com/speckwoodZoom/">URL for Initial Dev Work</a></p>
 <h2>Current State</h2>
-<p style="color:red;">In Development</p>
+<font color="red">In Development</font>
 <p>Using, but not limited to:</p>
 <ul>
     <li>Primitive JavaScript</li>
