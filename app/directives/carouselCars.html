@@ -1,28 +1,24 @@
-
-
-
-  <div class="modal {{data.show ? 'animate-show' : 'animate-show ng-hide'}}" ng-show="checked" role="dialog">
-    <div class="modal-dialog modal-lg">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-            <!-- Set $scope.data to false closes the modal -->
-            <button type="button" class="close" ng-click="data.show = false">&times;</button>
-            <h4 class="modal-title">{{data.description}}</h4>
-        </div>
-        <div class="modal-body">
-            <h1>{{data.path}}</h1>
-            <h3>{{data.year}}</h3>
-            <h4>{{data.model}}</h4>
-            <h5>data.show:&#160;{{data.show}}</h5>            
-            <h6>{{data.id}}</h6>            
-            <h6>{{blnClose}}</h6>
-        </div>
-        <div class="modal-footer">
-            <!-- Set $scope.data to false closes the modal -->
-            <button type="button" class="btn btn-default" ng-click="data.show = false">Close</button>
-        </div>
-      </div>
-
+<div class="modal {{data.show ? 'animate-show' : 'animate-show ng-hide'}}" ng-show="checked" role="dialog">
+<div class="modal-dialog modal-lg">
+  <!-- Modal content-->
+  <div class="modal-content">
+    <div class="modal-header">
+        <!-- Set $scope.data to false closes the modal -->
+        <button type="button" class="close" ng-click="data.show = false">&times;</button>
+        <h4 class="modal-title">{{data.description}}</h4>
+    </div>
+    <div class="modal-body">
+        <h1>{{data.path}}</h1>
+        <h3>{{data.year}}</h3>
+        <h4>{{data.model}}</h4>
+        <h5>data.show:&#160;{{data.show}}</h5>            
+        <h6>{{data.id}}</h6>            
+        <h6>{{blnClose}}</h6>
+    </div>
+    <div class="modal-footer">
+        <!-- Set $scope.data to false closes the modal -->
+        <button type="button" class="btn btn-default" ng-click="data.show = false">Close</button>
+    </div>
+  </div>
+</div> <!-- End .modal-dialog -->
 
