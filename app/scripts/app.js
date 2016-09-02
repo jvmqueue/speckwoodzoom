@@ -11,7 +11,8 @@
 angular
   .module('siteApp', [
     'ngRoute',
-    'ngTouch'
+    'ngTouch',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -30,7 +31,35 @@ angular
         controller: 'ImagegalleryCtrl',
         controllerAs: 'imageGallery'
       })
+      .when('/carouselTry', {
+        templateUrl: 'views/carouselTry.html',
+        controller: 'carouselTryCtrl',
+        controllerAs: 'carouselTry'
+      })      
       .otherwise({
         redirectTo: '/'
       });
   });
+angular.module('siteApp').controller('navBarCtrl', ['$scope', '$location', function($scope, $location){
+   $scope.isActive = function(paramViewLocation){
+    var blnActive = (paramViewLocation === $location.path());
+     return blnActive;
+   };
+}]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
