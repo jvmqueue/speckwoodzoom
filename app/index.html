@@ -14,6 +14,7 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/generics.css" />
+    <link rel="stylesheet" href="styles/override.css" />
     <!-- endbuild -->
   </head>
   <body ng-app="siteApp">
@@ -23,7 +24,7 @@
 
     <!-- Add your site or application content here -->
     <div class="header navHeader override borderNone">
-      <div class="navbar navbar-default override borderNone" role="navigation">
+      <div class="override navbar navbar-default override borderNone" role="navigation">
         <div class="container">
           <div class="navbar-header">
 
@@ -40,7 +41,7 @@
           <div id="js-navbar-collapse" class="collapse navbar-collapse" ng-controller="navBarCtrl">
             <ul class="nav navbar-nav">
               <li ng-class="{active:isActive('/')}"><a href="#/">Home</a></li>
-              <li ng-class="{active:isActive('/carouselTry')}"><a ng-href="#/carouselTry">Carousel Try</a></li>
+              <li ng-class="{active:isActive('/favoriteGalleries')}"><a ng-href="#/favoriteGalleries">Favorite Galleries</a></li>
               <li ng-class="{active:isActive('/imageGallery')}"><a ng-href="#/imageGallery">Galleries</a></li>
             </ul>
           </div>
@@ -87,7 +88,8 @@
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/imagegallery.js"></script>
         <script src="scripts/controllers/carouselDemoCtrl.js"></script>
-        <script src="scripts/controllers/carouselTryCtrl.js"></script>
+        <script src="scripts/controllers/favoriteGalleriesCtrl.js"></script>
+        <script src="scripts/services/getData.js"></script>
         <script src="scripts/directives/directiveSite.js"></script>
         <!-- endbuild -->
 </body>
